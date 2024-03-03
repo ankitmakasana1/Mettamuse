@@ -6,7 +6,7 @@ export default function Product() {
   const [data, setData] = useState([]);
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-
+  
   useEffect(() => {
     const getProducts = async () => {
       try {
@@ -21,7 +21,7 @@ export default function Product() {
     };
 
     getProducts();
-  }, []);
+  }, [data]);
 
   const handleClick = () => {
     setIsActive(!isActive); // Toggle the state
