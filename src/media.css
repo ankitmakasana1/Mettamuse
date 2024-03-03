@@ -1,0 +1,246 @@
+@media only screen and (max-width: 991px)
+{
+    .min-logo
+    {
+        margin-left: 50px;
+    }
+
+    .navbar-toggler
+    {
+        margin-top: -75px;
+    }
+
+    .navbar-logo-wrp
+    {
+        padding: 20px 0;
+    }
+    .navbar-main
+    {
+        padding-bottom: 0;
+    }
+
+    .navbar-collapse
+    {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        background: #E5E5E5;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .main-hero-s
+    {
+        padding: 50px 0;
+    }
+    .m-title {
+        font-size: 50px;
+        margin-bottom: 6px;
+    }
+
+    .footer .pr-div
+    {
+        padding-right: 0;
+    }
+    .footer .bottom-logo img
+    {
+        margin-right: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .m-title {
+        font-size: 40px;
+        margin-bottom: 6px;
+    }
+    .main-hero-s {
+        padding: 40px 0;
+    }
+    .m-text
+    {
+        font-size: 20px;
+    }
+
+    .product-wrp .prod-side-wrp
+    {
+        position: absolute;
+        z-index: 99;
+        background: #fff;
+        max-width: 250px;
+        min-width: 250px;
+        margin-right: 0;
+    }
+
+    .product-wrp .p-topbar
+    {
+        padding: 12px 0;
+    }
+
+    .product-wrp .items-text
+    {
+        display: none;
+    }
+    .h-filter
+    {
+        width: 50%;
+        border-right: solid 1px #E5E5E5;
+        color: #252020;
+    }
+
+    .product-wrp .h-filter svg
+    {
+        display: none;
+    }
+
+    .footer .search-btn
+    {
+        margin-top: 16px;
+    }
+    .footer {
+        padding-top: 40px;
+    }
+    .footer .pr-div
+    {
+        margin-bottom: 16px;
+    }
+    .footer p
+    {
+        margin-top: 16px;
+    }
+    .faq-drawer
+    {
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+    }
+
+    .faq-drawer__content-wrapper .faq-drawer__content
+    {
+        padding: 16px 0 0;
+    }
+    .prod-side-wrp .form-check
+    {
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .m-title
+    {
+        font-size: 24px;
+    }
+    .m-text
+    {
+        font-size: 16px;
+    }
+    .navbar-logo-wrp h5
+    {
+        font-size: 20px;
+    }
+    .min-logo
+    {
+        width: 20px;
+        height: 20px;
+        margin-left: 40px;
+    }
+
+    .navbar-logo-wrp .other-icon svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar-toggler
+    {
+        margin-top: -60px;
+    }
+
+    .navbar-toggler-icon
+    {
+        width: 25px;
+    }
+
+    .h-filter
+    {
+        font-weight: 600;
+    }
+
+    .product-wrp .form-select
+    {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .prod-item-wrp
+    {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+    .prod-card .image-class
+    {
+        height: 300px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link
+    {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .footer hr
+    {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .footer .bottom-logo
+    {
+        margin-top: 24px;
+    }
+
+    .footer
+    {
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+    .main-hero-s
+    {
+        padding:0 0 20px 0;
+    }
+    .faq-drawer__title
+    {
+        font-size: 14px;
+    }
+    .prod-side-wrp .checkbox-div .form-check
+    {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+    }
+    .faq-drawer
+    {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+    }
+    .product-wrp .p-topbar
+    {
+        margin-bottom: 16px;
+    }
+    .prod-side-wrp .form-check-input
+    {
+        width: 16px;
+        height: 16px;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .prod-item-wrp {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .prod-card .image-class
+    {
+        height: 230px;
+    }
+}
