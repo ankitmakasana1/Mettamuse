@@ -21,7 +21,7 @@ export default function Product() {
     };
 
     getProducts();
-  }, [data]);
+  }, []);
 
   const handleClick = () => {
     setIsActive(!isActive); // Toggle the state
